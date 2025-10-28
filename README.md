@@ -55,7 +55,7 @@ npm run dev
 
 * Email: [yamlaknegash96@gmail.com](mailto:yamlaknegash96@gmail.com)
 * GitHub: [Yamlak Negash](https://github.com/yamneg96)
-* LinkedIn: [Profile](https://linkedin.com/in/yourprofile)
+* Telegram: [Profile](https://t.me/user1name_123)
 
 ````
 
