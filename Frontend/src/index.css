@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .cp {
+    @apply cursor-pointer;
+  }
+
+  /* Hide scrollbar but keep scrolling (works in Chrome/Safari/Edge/Firefox) */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+}
+
+/* small helpers */
+:root {
+  --primary: #1e3a8a;
+  --secondary: #2563eb;
+  --darkBg: #0f172a;
+  --lightBg: #f8fafc;
+}
+
+html.dark {
+  background-color: var(--darkBg);
+  color: white;
+}
